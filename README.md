@@ -1,8 +1,8 @@
 Getting-and-Cleaning-Data_Course-Project
 ========================================
+This is Getting and Cleaning Data's Peer Project.<br>
 
 #Contents
-This is Getting and Cleaning Data's Peer Project.<br>
 There are 4 file in this repository.<br>
 * **run_analysis.R** : Code of this project
 * **tidy_data.txt** : Tidy dataset after our work
