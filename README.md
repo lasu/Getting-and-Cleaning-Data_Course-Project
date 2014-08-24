@@ -1,6 +1,10 @@
 Getting-and-Cleaning-Data_Course-Project
 ========================================
 This is Getting and Cleaning Data's Peer Project.<br>
+Our purpose is work with, and clean a data set of <br>
+**Human Activity Recognition Using Smartphones Data Set**<br>
+A full description is available at the site where the data was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 #Contents
 There are 4 files in this repository.<br>
@@ -10,13 +14,13 @@ There are 4 files in this repository.<br>
 * **Code Book.md** : Describe the variables, the data, and any transformations or work
 
 #Steps of run the code
-* Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-* Set working directory to this directory (UCI HAR Dataset)
-* Download code file "run_analysis.R" into the same directory
-* Use source("run_analysis.R") command
-* You will get 2 output files ("tidy_data.txt" and "tidy_data_second.txt")
+* Unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip .
+* Set working directory into this directory (UCI HAR Dataset).
+* Download code file "run_analysis.R" into the working directory.
+* Use source("run_analysis.R") command.
+* You will get an output file "tidy_data_second.txt".
 
-#Original dataset
+#Original dataset(we used)
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
@@ -25,8 +29,9 @@ There are 4 files in this repository.<br>
 - 'test/X_test.txt': Test set.
 - 'test/y_test.txt': Test labels.
 
-#Data analysis steps
-* We combind the train set and test set(X,y,subject) and renamed their column name.
-* Now we have 30 subjects and 6 activities and 561 features(variables).
-* Extracts only the measurements on the mean and standard deviation for each measurement.(66 features be left over).
-* Step 5 of this assessment should calculate the average of each variable for each activity and each subject.
+#Steps of data analysis
+* **(1)** We merge the training sets and test sets(X,y,subject) and renamed their column name.
+* **(2)** Extracts only the measurements on the mean and standard deviation for each measurement.(66 features will be left over).
+* **(3)** Name the activities in this data set.(following the rule in activity_labels.txt.)
+* **(4)** Appropriately labels the data set with descriptive activity names.
+* **(5)** Calculate the average of each variable for each activity and each subject. Creat a new file(output).
