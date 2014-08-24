@@ -5,7 +5,7 @@ This file describes the variables, the data that I have performed to clean up th
 #Variables in tidy_data_second.txt
 
 * **subject**<br>
-  subjects of these data
+   volunteers in this experiments
   - 1 ~ 30
 * **activity**<br>
   activities of these data
