@@ -4,10 +4,10 @@ This file describes the variables, the data that I have performed to clean up th
 
 #Variables in tidy_data_second.txt
 
-* subject<br>
+* **subject**<br>
   subjects of these data
   - 1 ~ 30
-* activity<br>
+* **activity**<br>
   activities of these data
   - WALKING
   - WALKING_UPSTAIRS
