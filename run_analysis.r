@@ -30,7 +30,7 @@ Label[,1] <- activity[Label[,1],2] #rename (1,2...-> WALKING,WALKING_UPSTAIRS...
 names(Label) <- "activity"
 names(Subject) <- "subject"
 tidyData <- cbind(Subject,Label,Data) #merge 3 dataset
-write.table(tidyData, "tidy_data.txt",row.name=FALSE) #creat a new file(first file)
+#write.table(tidyData, "tidy_data.txt",row.name=FALSE) #creat a new file(first file)
 
 ##Step5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 subject_n <- split(tidyData$activity,tidyData$subject) #30 subjects
