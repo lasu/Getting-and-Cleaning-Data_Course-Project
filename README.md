@@ -27,7 +27,7 @@ There are 4 files in this repository.<br>
 * **(4)** Appropriately labels the data set with descriptive activity names.
 * **(5)** Calculate the average of each variable for each activity and each subject. Creat a new file(output).
 
-#Original dataset in UCI HAR Dataset(we used)
+#Original datasets in UCI HAR Dataset(we used)
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
