@@ -38,4 +38,4 @@ This file describes the variables, the data that I have performed to clean up th
   mean: Mean value<br>
   std: Standard deviation<br>
   **average of each variable for each activity and each subject.**<br>
-  - 1 ~ -1
+  - -1 ~ 1
